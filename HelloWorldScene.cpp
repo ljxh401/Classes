@@ -253,7 +253,6 @@ bool HelloWorld::init()
 	labelMsg->setColor(Color3B(0xFF, 0, 0));
 	labelMsg->setPosition(Vec2(origin.x + visibleSize.width/2, origin.y + visibleSize.height - labelMsg->getContentSize().height));
 	this->addChild(labelMsg);
-
 	mButton = Button::create();
 	//mButton->setTitleFontName("fonts/Marker Felt.ttf");
 	//mButton->setTitleText("BackStep");
